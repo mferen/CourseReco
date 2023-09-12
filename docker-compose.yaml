@@ -1,0 +1,8 @@
+services:
+  pyapp:
+    container_name: pyapp
+    image: py.img:1.0.0
+    ports:
+     - 8501:8501  
+
+
