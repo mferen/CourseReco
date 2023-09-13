@@ -1,4 +1,4 @@
-/*node {
+node {
      stage('Build & Push Image Backend') {
         withCredentials([usernamePassword(credentialsId: 'dockercred', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
           sh "docker login -u=$USERNAME -p=$PASSWORD"
@@ -16,4 +16,4 @@
 
 
 }
-*/
+
