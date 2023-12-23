@@ -54,6 +54,12 @@ Clone this repository or Download the files into your local system.
 - Open your Command Prompt (CMD) in the same directory 
 - Type the following command (for web app) : 
 
+--- '''To build with docker compose 
+
+docker compose up
+
+
+
 ```bash
 streamlit run main.py
 ```
